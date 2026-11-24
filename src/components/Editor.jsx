@@ -16,7 +16,7 @@ function Editor() {
   const [saveStatus, setSaveStatus] = useState("Saved");
 
   useEffect(() => {
-    setSaveStatus("Saving...");
+    setSaveStatus("Saving..");
 
     const timer = setTimeout(() => {
       localStorage.setItem(
