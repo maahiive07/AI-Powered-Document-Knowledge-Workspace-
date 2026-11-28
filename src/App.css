@@ -4,8 +4,8 @@
 
 :root {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: #29243a;
-  background: #f7f6fb;
+  color: #514861;
+  background: #fcfaff;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +31,7 @@ button {
 .app-container {
   display: flex;
   min-height: 100vh;
-  background: #f7f6fb;
+  background: #fcfaff;
 }
 
 .sidebar {
@@ -46,7 +46,7 @@ button {
 
 .logo {
   margin: 0 0 28px;
-  color: #7652b5;
+  color: #987fc2;
   font-size: 22px;
   font-weight: 750;
   letter-spacing: -0.7px;
@@ -57,15 +57,15 @@ button {
   padding: 12px 14px;
   border: 0;
   border-radius: 11px;
-  background: #7652b5;
-  color: #fff;
+  background: #e9e0f5;
+  color: #624d80;
   font-weight: 650;
   cursor: pointer;
   transition: background 160ms ease, transform 160ms ease;
 }
 
 .new-doc:hover {
-  background: #65439f;
+  background: #ddd0ef;
   transform: translateY(-1px);
 }
 
@@ -96,7 +96,7 @@ button {
 
 .sidebar-menu button:hover {
   background: #f3effa;
-  color: #68469f;
+  color: #765e98;
 }
 
 .main-content {
@@ -151,8 +151,8 @@ button {
   height: 40px;
   place-items: center;
   border-radius: 50%;
-  background: #eee7f8;
-  color: #68469f;
+  background: #f0eaf8;
+  color: #765e98;
   font-weight: 700;
 }
 
@@ -197,7 +197,7 @@ button {
   padding: 0;
   border: 0;
   outline: none;
-  color: #29243a;
+  color: #514861;
   font-size: clamp(26px, 3vw, 34px);
   font-weight: 730;
   letter-spacing: -1.2px;
@@ -214,7 +214,7 @@ button {
   padding: 0;
   border: 0;
   outline: none;
-  color: #514c60;
+  color: #675e73;
   font-size: 15px;
   line-height: 1.8;
   resize: vertical;
@@ -262,7 +262,7 @@ button {
   border: 1px solid #eee8f7;
   border-radius: 4px 14px 14px;
   background: #f7f3fc;
-  color: #514c60;
+  color: #675e73;
   font-size: 13px;
   line-height: 1.65;
 }
@@ -285,20 +285,20 @@ button {
 
 .chat-input input:focus {
   border-color: #a68bcf;
-  box-shadow: 0 0 0 3px rgb(118 82 181 / 10%);
+  box-shadow: 0 0 0 3px rgb(151 127 194 / 12%);
 }
 
 .chat-input button {
   min-width: 44px;
   border: 0;
   border-radius: 10px;
-  background: #7652b5;
-  color: #fff;
+  background: #e9e0f5;
+  color: #624d80;
   cursor: pointer;
 }
 
 .chat-input button:hover {
-  background: #65439f;
+  background: #ddd0ef;
 }
 
 @media (max-width: 1000px) {
@@ -399,7 +399,7 @@ button {
 button:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgb(118 82 181 / 35%);
+  outline: 3px solid rgb(151 127 194 / 35%);
   outline-offset: 3px;
 }
 
