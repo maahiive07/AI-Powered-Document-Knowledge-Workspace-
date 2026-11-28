@@ -1,4 +1,4 @@
-﻿* {
+* {
   box-sizing: border-box;
 }
 
@@ -393,5 +393,38 @@ button {
 
   .editor-content {
     margin-top: 34px;
+  }
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgb(118 82 181 / 35%);
+  outline-offset: 3px;
+}
+
+.document-title,
+.document-text {
+  background: transparent;
+}
+
+@media (max-width: 760px) {
+  .navbar-right {
+    gap: 9px;
+  }
+
+  .editor-header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }
