@@ -7,8 +7,8 @@ function Navbar() {
       </div>
 
       <div className="navbar-right">
-        <button>🔔</button>
-        <div className="profile">M</div>
+        <button type="button" aria-label="Notifications">🔔</button>
+        <div className="profile" aria-label="User profile">M</div>
       </div>
     </nav>
   );
